@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 15%, rgba(159,36,36,1) 59%, rgba(28,208,245,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   max-width: 400px;
+}
+
+.square{
+   width: 16px;
+   height: 16px;
+   background: #1d1d1d;
+   margin: 2px;
+   box-shadow: 0 0 2px #000;
+   transition: 1s ease-in-out;
+}
+
+.square:hover{
+   transition-duration: 0s;
+}
